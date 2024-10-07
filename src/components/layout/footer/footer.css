@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "cursiva";
+  src: url(../../../assets/fonts/Matsury.ttf);
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: steelblue;
+  height: auto;
+  width: 98%;
+  margin-top: 100px;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.name {
+  font-family: "cursiva";
+  font-size: 40px;
+  text-shadow: 0 0 20px white;
+}

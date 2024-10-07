@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "cursiva";
+  src: url(../../../assets/fonts/Matsury.ttf);
+}
+
+.logoEmpresa {
+  font-family: "cursiva";
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.darkNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: auto;
+  background-color: gray;
+  width: auto;
+}
+
+.lightNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: auto;
+  background-color: steelblue;
+  width: auto;
+}
+
+.navBar_list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+table {
+  text-align: center;
+}

@@ -5,7 +5,7 @@ export const products = [{
         stock: 10,
         description: "Sofá cómodo de 3 plazas en color gris.",
         category: "living",
-        imgUrl: "https://asset.cloudinary.com/dlec64dbi/3885c8f572d2ad7388da9937b3597c0a",
+        imgUrl: "https://res.cloudinary.com/dlec64dbi/image/upload/v1725985886/new-zealand-hotel-5_adxiuo.jpg",
     },
     {
         id: "2",
@@ -14,7 +14,7 @@ export const products = [{
         stock: 15,
         description: "Mesa de centro de madera con acabado en roble.",
         category: "living",
-        imgUrl: "https://example.com/mesa-centro.jpg", // Cambia la URL a una imagen real
+        imgUrl: "https://res.cloudinary.com/dlec64dbi/image/upload/v1725987795/images_pdw2hb.jpg",
     },
     {
         id: "3",
@@ -23,7 +23,7 @@ export const products = [{
         stock: 8,
         description: "Sommier King Size con colchón incluido.",
         category: "dormitorio",
-        imgUrl: "https://example.com/sommier.jpg", // Cambia la URL a una imagen real
+        imgUrl: "https://res.cloudinary.com/dlec64dbi/image/upload/v1725986486/ep-2ITAVTYABBC77BPXJ6KLJAM4EI_ykbzza.jpg", // Cambia la URL a una imagen real
     },
     {
         id: "4",
@@ -32,6 +32,34 @@ export const products = [{
         stock: 5,
         description: "Cómoda de 4 cajones en color blanco, ideal para el dormitorio.",
         category: "dormitorio",
-        imgUrl: "https://example.com/comoda.jpg", // Cambia la URL a una imagen real
+        imgUrl: "https://res.cloudinary.com/dlec64dbi/image/upload/v1728336054/comoda-4-cajones-color-naturale-gris-tormenta-_nu9t1a.jpg", // Cambia la URL a una imagen real
     },
+    {
+        "id": "6",
+        "title": "Silla de Patio Apilable",
+        "price": 4500,
+        "stock": 10,
+        "description": "Silla de patio apilable en metal, resistente a la intemperie.",
+        "category": "patio",
+        "imgUrl": "https://res.cloudinary.com/dlec64dbi/image/upload/v1728336260/images_nxwy1v.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Mesa de Patio Redonda",
+        "price": 8500,
+        "stock": 8,
+        "description": "Mesa redonda de patio en madera tratada, perfecta para reuniones.",
+        "category": "patio",
+        "imgUrl": "https://res.cloudinary.com/dlec64dbi/image/upload/v1728336428/mesa_patio_redonda_f8tyfm.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Tumbona de Patio",
+        "price": 12000,
+        "stock": 6,
+        "description": "Tumbona de patio ajustable, ideal para tomar el sol.",
+        "category": "patio",
+        "imgUrl": "https://res.cloudinary.com/dlec64dbi/image/upload/v1728336489/tumbona-seagull-de-aluminio-blanco_orig_jc73te.jpg"
+    }
+
 ];

@@ -6,6 +6,7 @@ import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import CardMedia from "@mui/material/CardMedia";
 
 import { Link } from "react-router-dom";
 
@@ -16,6 +17,12 @@ const ItemList = ({ items }) => {
         return (
           <Card key={item.id} sx={{ maxWidth: 345 }}>
             <CardContent>
+              <CardMedia
+                component="img"
+                height="194"
+                image={item.imgUrl}
+                alt={item.title}
+              />
               <Typography gutterBottom variant="h5" component="div">
                 {item.title}
               </Typography>

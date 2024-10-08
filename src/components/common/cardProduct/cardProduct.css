@@ -1,7 +1,7 @@
 .productCard {
+  margin: 30px auto;
   width: 250px;
   text-align: center;
-  margin: 10px;
   box-shadow: 0 0 20px black;
   border-radius: 5px;
   padding: 10px;

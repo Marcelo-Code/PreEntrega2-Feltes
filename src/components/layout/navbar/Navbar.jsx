@@ -15,7 +15,6 @@ export const Navbar = () => {
 
   return (
     <div className={darkMode ? "lightNavBar" : "darkNavbar"}>
-      {/* para navegar de manera dinámica por nuestro sitio usamos el componente Link */}
       <Link className="logoEmpresa" to="/">
         <table>
           <tbody>

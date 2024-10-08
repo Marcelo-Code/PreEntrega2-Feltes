@@ -31,7 +31,7 @@ export const Navbar = () => {
           </tbody>
         </table>
       </Link>
-      <ul className="navBar_list">
+      <ul className="navBarList">
         {categories.map(({ title, path }) => (
           <Link key={title} to={path}>
             {title}

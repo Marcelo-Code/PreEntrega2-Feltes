@@ -1,17 +1,29 @@
 export const categories = [{
-        title: "todos",
+        title: "Todos",
         path: "/"
     },
     {
-        title: "dormitorio",
-        path: "category/dormitorio"
+        title: "Accesorios",
+        path: "category/Accesorios"
     },
     {
-        title: "patio",
-        path: "category/patio"
+        title: "Biblioteca",
+        path: "category/Biblioteca"
     },
     {
-        title: "living",
-        path: "category/living"
+        title: "Comedor",
+        path: "category/Comedor"
+    },
+    {
+        title: "Dormitorio",
+        path: "category/Dormitorio"
+    },
+    {
+        title: "Living",
+        path: "category/Living"
+    },
+    {
+        title: "Patio",
+        path: "category/Patio"
     },
 ]

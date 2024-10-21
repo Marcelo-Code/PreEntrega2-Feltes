@@ -14,27 +14,11 @@
 }
 
 .darkNavbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  height: auto;
   background-color: gray;
 }
 
 .lightNavBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  height: auto;
   background-color: steelblue;
-}
-
-.darkNavbar,
-.lightNavBar {
-  position: relative;
-  width: 97.5%;
 }
 
 .navBarList {
@@ -44,6 +28,18 @@
   justify-content: center;
   gap: 10px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.lightNavBar,
+.darkNavbar {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 0;
+  height: auto;
 }
 
 table {

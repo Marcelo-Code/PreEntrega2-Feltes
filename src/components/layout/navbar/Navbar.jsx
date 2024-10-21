@@ -1,10 +1,10 @@
-import { CartWidget } from "../../common/cartWidget/CartWidget";
 import { useState } from "react";
 import logoEmpresa from "../../../assets/imgs/logoEmpresa.png";
 import { MaterialUISwitch } from "../../layout/Switch/Switch";
 import "./navBar.css";
 import { Link } from "react-router-dom";
-import { categories } from "./categories";
+import { HamburguerMenu } from "../hamburguerMenu/HamburguerMenu";
+import { CartContainer } from "../../pages/cart/cartContainer";
 
 export const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -15,7 +15,9 @@ export const Navbar = () => {
 
   return (
     <div className={darkMode ? "lightNavBar" : "darkNavbar"}>
-      <Link className="logoEmpresa" to="/">
+      <HamburguerMenu />
+
+      <Link id="page-wrap" className="logoEmpresa" to="/">
         <table>
           <tbody>
             <tr>
@@ -31,17 +33,11 @@ export const Navbar = () => {
           </tbody>
         </table>
       </Link>
-      <ul className="navBarList">
-        {categories.map(({ title, path }) => (
-          <Link key={title} to={path}>
-            {title}
-          </Link>
-        ))}
-      </ul>
+
       <MaterialUISwitch onChange={cambiarModo} />
-      <Link to={"/cart"}>
-        <CartWidget />
-      </Link>
+      {/* <Link to={"/cart"}> */}
+      <CartContainer />
+      {/* </Link> */}
     </div>
   );
 };

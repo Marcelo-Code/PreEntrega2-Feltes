@@ -4,7 +4,7 @@ import { MaterialUISwitch } from "../../layout/Switch/Switch";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { HamburguerMenu } from "../hamburguerMenu/HamburguerMenu";
-import { CartContainer } from "../../pages/cart/cartContainer";
+import { CartContainer } from "../../pages/cart/CartContainer";
 
 export const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);

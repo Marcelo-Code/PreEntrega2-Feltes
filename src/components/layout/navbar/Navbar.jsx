@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logoEmpresa from "../../../assets/imgs/logoEmpresa.png";
 import { MaterialUISwitch } from "../../layout/Switch/Switch";
-import "./navBar.css";
+import "./navbar.css";
 import { Link } from "react-router-dom";
 import { HamburguerMenu } from "../hamburguerMenu/HamburguerMenu";
 import { CartContainer } from "../../pages/cart/cartContainer";

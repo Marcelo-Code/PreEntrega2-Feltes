@@ -3,7 +3,6 @@ import { ItemListContainer } from "./components/pages/itemListContainer/ItemList
 import { Navbar } from "./components/layout/navbar/Navbar";
 import { Footer } from "./components/layout/footer/Footer";
 import ItemDetailContainer from "./components/pages/itemDetail/ItemDetailContainer";
-import { CartContainer } from "./components/pages/cart/cartContainer";
 import "./App.css";
 import { CartContextProvider } from "./context/CartContext";
 
@@ -18,7 +17,6 @@ function App() {
             path={"/category/:categoryName"}
             element={<ItemListContainer />}
           />
-          {/* <Route path={"/cart"} element={<CartContainer />} /> */}
           <Route
             path={"/productDetail/:id"}
             element={<ItemDetailContainer />}

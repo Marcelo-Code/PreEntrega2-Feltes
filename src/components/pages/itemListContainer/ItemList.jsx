@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import "./ItemListContainer.css";
+import "./itemListContainer.css";
 
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
